@@ -1,4 +1,4 @@
-/*File: minprimes.c  ergasia#1*/
+/*File: minprimes.c*/
 #include <stdio.h>
 #define MAXNUMB 100000000
 
