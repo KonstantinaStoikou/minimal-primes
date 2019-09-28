@@ -6,14 +6,12 @@ int is_prime(int num) {
     if (num == 0 || num == 1) {
         return 0;
     }
-    int prime_flag = 1;
     for (int i = 2; i <= sqrt(num); i++) {
         if (num % i == 0) {
-            prime_flag = 0;
-            break;
+            return 0;
         }
     }
-    return prime_flag;
+    return 1;
 }
 
 int main(void) {
